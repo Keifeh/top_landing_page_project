@@ -1,6 +1,6 @@
 /* <--STYLE SHEET-->*/
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,300&display=swap');
 
 body {
     font-family: roboto, sans-serif;
@@ -74,6 +74,7 @@ button.btn-signup {
     display: flex;
     align-items: center;
     flex-direction: column;
+    height: 400px;
 }
 
 .headline {
@@ -106,6 +107,33 @@ img.info-pair-img {
     font-size: 0.8em;
     color: grey;
     margin-top:12px;
+}
+
+.quote {
+    display:flex;
+    flex-direction: column;
+    height: 400px;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+    width: 900px;
+}
+
+.quote-author {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.call-to-action {
+    display:flex;
+    height: 400px;
 }
 
 
